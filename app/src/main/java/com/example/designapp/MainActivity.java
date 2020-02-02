@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<MyWord> listfir = new ArrayList<>();
         listfir.add(new MyWord(R.drawable.img6,"Dubai & Abu Dhabi","₹49,999/-","5 Nights, 6 Days"));
-        listfir.add(new MyWord(R.drawable.img5,"Bankok & Paris","₹39,999/-","4 Nights, 5 Days"));
+        listfir.add(new MyWord(R.drawable.img5,"Bangkok & Pattaya","₹49,999/-","4 Nights, 5 Days"));
         RecyclerView recyclerViewf = findViewById(R.id.horizontalScrollView);
         FirstCustomAdapter adapterf = new FirstCustomAdapter(listfir);
         RecyclerView.LayoutManager mLayoutManagerf = new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false);
